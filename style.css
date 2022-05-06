@@ -1,0 +1,88 @@
+
+.large-font {
+    border: 10px solid rgb(248, 66, 178);
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    background-color: rgb(186, 21, 186);
+}
+
+.medium-font {
+    font-size: 25px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+button {
+   background-color: green;
+   border-radius: 50px;
+   color:white;
+   font-size: 2em; 
+   margin-top: 25px;
+   padding: 25px;
+   text-align: center;
+}
+
+.answer {
+    background-color: deeppink;
+    border-color: blueviolet;
+    border-radius: 10px;
+    border-style: solid;
+    display: block;
+    color: white;
+    cursor: pointer;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 25px;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+   }
+
+.quiz-container {
+background-color: whitesmoke;
+border: 10px solid rgb(248, 66, 178);
+flex-direction: column;
+flex-wrap: wrap;
+font-size: 30px;
+margin: auto;
+margin-top: 25px;
+padding: 150px;
+
+}
+
+#msg.before{
+    visibility: hidden;
+    font-size: 35px;
+    color:aqua
+}
+
+#msg.after {
+    visibility: visible;
+    font-size: 35px;
+    color: green;
+}
+
+#msg.end {
+    visibility: visible;
+    font-size: 35px;
+    color:crimson
+}
+
+#timer {  
+     font-size: 35px; 
+     margin-top: -75px; 
+     margin-left: 300px;
+     text-align: center; 
+ }  
+
+ #points {
+    font-size: 35px; 
+    margin-top: -75px; 
+    margin-left: 300px;
+    text-align: center; 
+ }
+
